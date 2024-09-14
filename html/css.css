@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    padding: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline;
+    margin-right: 35px;
+    font-size: larger;
+    font-weight: bolder;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+}
+#products{
+display:flex;
+justify-content: space-around;
+}
+div a{
+    text-decoration: none;
+}
+.products{
+    margin:20px;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+footer{
+    padding: 35px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
